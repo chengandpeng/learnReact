@@ -7,3 +7,11 @@
 npm install
 npm start
 ```
+
+## blog
+Simple Redux Blog 简易博客
+### install
+```
+npm install
+npm start
+```

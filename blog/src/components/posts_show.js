@@ -22,7 +22,7 @@ export class PostsShow extends React.Component {
   onDeleteClick() {
     this.props.deletePost(this.props.params.id)
       .then(()=> {
-        this.context.router.push('/');
+        this.context.router.push('/blog');
       });
   }
 
@@ -45,7 +45,7 @@ export class PostsShow extends React.Component {
 
     return (
       <div>
-        <Link to="/" className="btn btn-primary">返回首页</Link>
+        <Link to="/blog" className="btn btn-primary">返回首页</Link>
         <button className="btn btn-danger pull-xs-right" onClick={this.onDeleteClick.bind(this)}>
           删除文章
         </button>

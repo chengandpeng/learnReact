@@ -24,7 +24,7 @@ class PostsNew extends React.Component {
 	onSubmit(props) {
 		this.props.createPost(props)
 			.then(() => {
-				this.context.router.push('/');
+				this.context.router.push('/blog');
 			});
 	}
 
@@ -56,7 +56,7 @@ class PostsNew extends React.Component {
     		<h3>新增一篇文章</h3>
         <div className="text-xs-right">
           <button type="submit" className="btn btn-primary">提交</button>
-          <Link to="/" className="btn btn-danger">取消</Link>
+          <Link to="/blog" className="btn btn-danger">取消</Link>
     		</div>
         <div className={`form-group ${title.touched && title.invalid ? 'has-danger' : ''}`}>
     			<label>标题</label>

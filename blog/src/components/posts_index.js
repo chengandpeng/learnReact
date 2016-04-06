@@ -14,7 +14,7 @@ class PostsIndex extends React.Component {
       return (
         <li className="list-group-item" key={post.id}>
           <span className="pull-xs-right">{post.categories}</span>
-          <Link to={"posts/" + post.id}>
+          <Link to={"/blog/posts/" + post.id}>
             <strong>{post.title}</strong>
           </Link>
         </li>
@@ -26,7 +26,7 @@ class PostsIndex extends React.Component {
     return (
       <div>
       	<div className="text-xs-right">
-      		<Link to="/posts/new" className="btn btn-primary">
+      		<Link to="/blog/posts/new" className="btn btn-primary">
       			新增文章
       		</Link>
       	</div>

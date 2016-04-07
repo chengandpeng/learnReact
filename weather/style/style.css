@@ -7,7 +7,7 @@ td, th {
 	text-align: center !important;
 }
 
-td:first-of-type {
+td:last-of-type {
 	height: 200px;
-	width: 250px;
+	width: 200px;
 }

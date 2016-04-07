@@ -9,7 +9,7 @@ body, .jumbotron {
 }
 
 .jumbotron {
-	color: white;
+	color: white !important;
 }
 
 .sub-title {

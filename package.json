@@ -21,6 +21,7 @@
   "dependencies": {
     "babel-preset-stage-1": "^6.5.0",
     "react": "^0.14.8",
+    "react-bootstrap": "^0.28.5",
     "react-dom": "^0.14.8"
   },
   "devDependencies": {

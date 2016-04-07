@@ -1,0 +1,35 @@
+body, .jumbotron {
+	background-color: #0096D6 !important;
+}
+
+.tk-fira-sans {
+	font-family: "adelle",sans-serif!important;
+	font-style: normal;
+	font-weight: 700;
+}
+
+.jumbotron {
+	color: white;
+}
+
+.sub-title {
+	color: #b3dff2;
+}
+
+.lead i {
+	color: white;
+}
+
+.lead i:hover {
+	transition: all 0.4s ease-in-out;
+	transform:scale(1.2);
+}
+
+.lead a {
+	margin-right: 15px;
+}
+
+.desc {
+	font-weight: bold;
+	color: #82cae8;
+}

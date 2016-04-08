@@ -8,6 +8,7 @@ export default class Tag extends React.Component {
 			    <a href="https://github.com/chengandpeng" target="_blank"><i className="fa fa-github fa-2x"></i></a>
 			    <a href="https://www.youtube.com/user/chengandpeng" target="_blank"><i className="fa fa-youtube fa-2x"></i></a>
 			    <a href="http://chengandpeng.github.io/" target="_blank"><i className="fa fa-bold fa-2x"></i></a>
+			    <a href="mailto:chengandpeng@gmail.com" target="_blank"><i className="fa fa-envelope fa-2x"></i></a>
 			  </p>
     );
   }

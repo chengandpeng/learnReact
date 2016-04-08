@@ -2,7 +2,7 @@ body, .jumbotron {
 	background-color: #0096D6 !important;
 }
 
-.tk-fira-sans {
+body {
 	font-family: "adelle",sans-serif!important;
 	font-style: normal;
 	font-weight: 700;

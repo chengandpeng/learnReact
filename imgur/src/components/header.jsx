@@ -22,7 +22,7 @@ module.exports = React.createClass({
 			<nav className="navbar navbar-default header">
 				<div className="container-fluid">
 					<Link to="/" className="navbar-brand">
-						Imgur
+						MyImgur
 					</Link>
 					<ul className="nav navbar-nav navbar-right">
 						{this.renderTopics()}

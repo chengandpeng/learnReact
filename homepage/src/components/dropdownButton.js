@@ -10,6 +10,9 @@ export default class Button extends React.Component {
 			case "2":
 				window.open('/blog','_blank');
 				break;
+			case "3":
+				window.open('/imgur','_blank');
+				break;
 		}
 	}
 
@@ -18,6 +21,7 @@ export default class Button extends React.Component {
     	<DropdownButton bsStyle="success" title="React Works" key='1' id="worksButton" onSelect={this.handleSelect}>
 	      <MenuItem eventKey="1">Weather</MenuItem>
 	      <MenuItem eventKey="2">Simple Blog</MenuItem>
+	      <MenuItem eventKey="3">MyImgur</MenuItem>
     	</DropdownButton>
     );
   }

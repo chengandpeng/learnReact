@@ -39,7 +39,7 @@ module.exports = React.createClass({
 						<h5>{this.state.image.description}</h5>
 					</div>
 				</div>
-				<h3>Comments</h3>
+				<h3>评论</h3>
 				{this.renderComments()}
 			</div>
 		);

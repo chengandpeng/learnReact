@@ -1,7 +1,9 @@
-# igonore project
+# project ignored to git
 thumnail-gulp
 dropdown
 ReactStarter
 redux
 ReduxBook
 youtubeReact
+hoc
+middleware

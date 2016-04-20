@@ -1,11 +1,15 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body, .jumbotron {
 	background-color: #0096D6 !important;
 }
 
 body {
-	font-family: "adelle",sans-serif!important;
-	font-style: normal;
-	font-weight: 700;
+	font-family: "Montserrat",sans-serif!important;
 }
 
 .jumbotron {
@@ -21,15 +25,56 @@ body {
 }
 
 .lead i:hover {
-	transition: all 0.4s ease-in-out;
-	transform:scale(1.2);
+	transition: all 0.5s ease-in-out;
+	transform:scale(1.15);
 }
 
+/* brand hover color */
+.fa-twitter:hover {
+	color: #55acee;
+}
+.fa-github:hover {
+	color: black;
+}
+.fa-youtube:hover {
+	color: #cd201f;
+}
+.fa-bold:hover {
+	color: #f57d00;
+}
+.fa-envelope:hover {
+	color: #D64937;
+}
+/*-------------------*/
+
 .lead a {
-	margin-right: 15px;
+	margin-right: 20px;
 }
 
 .desc {
 	font-weight: bold;
 	color: #82cae8;
+}
+
+/* typed.js blinking cursor */
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }

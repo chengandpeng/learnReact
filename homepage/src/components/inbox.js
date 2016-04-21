@@ -6,9 +6,8 @@ export default class Inbox extends React.Component {
 	componentWillMount() {
 		$(function() {
 			 $("#type").typed({
-        strings: ['*･゜ﾟ･*:.｡..｡.:*･\'(*ﾟ▽ﾟ*)\'･*:.｡. .｡.:*･゜ﾟ･*',
-        					'repoleved.', '(=￣ ρ￣=) ..zzZZ', 
-        					'(=´∀｀)人(´∀｀=)',　'Developer tsiratiug.', 'Developer Guitarist.'],
+        strings: ['Initial all state to start system... ^1000', 'repoleved...', 'Developer...',
+        					'Developer tsiratiug...', 'Developer Guitarist.'],
         typeSpeed: 0
       });
 		});

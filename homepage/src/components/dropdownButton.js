@@ -13,6 +13,8 @@ export default class Button extends React.Component {
 			case "3":
 				window.open('/imgur','_blank');
 				break;
+			case "4":
+				window.open('http://myrecipe.chengpeng.me', '_blank');
 		}
 	}
 
@@ -22,6 +24,7 @@ export default class Button extends React.Component {
 	      <MenuItem eventKey="1">Weather</MenuItem>
 	      <MenuItem eventKey="2">Simple Blog</MenuItem>
 	      <MenuItem eventKey="3">MyImgur</MenuItem>
+	      <MenuItem eventKey="4">MyRecipe</MenuItem>
     	</DropdownButton>
     );
   }
